@@ -14,6 +14,7 @@ h1 {
 
 #boop {
 	font-family: 'Roboto Mono', monospace;
+	color:black;
 }
 
 .home-jumbotron {
@@ -29,7 +30,7 @@ h1 {
 }
 
 .shop-jumbotron {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("assets/shop-background.png");
+	background-image: url("assets/shop-background.png");
 	background-color:white;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -45,10 +46,18 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-.lead {
-	font-family: 'Abril Fatface', cursive;
+.beep {
+	color:rgb(48,48,51);
 	text-align:center;
-	color:white;
+}
+
+.shop-hero-text {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	border: 0.25em solid rgb(48,48,51);
+  	padding: 3em;
 }
 
 .nav-style {
@@ -66,4 +75,17 @@ p {
 
 form {
 	text-align:center;
+}
+
+#coming-soon {
+	font-size:24px;
+	padding-top:1em;
+}
+
+#submit-button {
+	margin-top:1em;
+}
+
+#filler {
+	color:rgba(48, 48, 51, 0);
 }
