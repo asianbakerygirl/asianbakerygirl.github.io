@@ -16,7 +16,7 @@ h1 {
 	font-family: 'Roboto Mono', monospace;
 }
 
-.jumbotron {
+.home-jumbotron {
 /*	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/smiling-bolo.PNG");*/
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/smiling-bolo.PNG");
 	background-position: left;
@@ -26,6 +26,15 @@ h1 {
 	height: calc(85vh - 56px);
 	background-size:cover;
 
+}
+
+.shop-jumbotron {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("assets/shop-background.png");
+	background-color:white;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: calc(85vh - 56px);
+	background-size:contain;
 }
 
 .hero-text {
@@ -54,3 +63,7 @@ p {
 	line-height:2;
 }
 
+
+form {
+	text-align:center;
+}
