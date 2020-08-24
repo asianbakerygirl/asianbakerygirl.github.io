@@ -1,0 +1,56 @@
+body {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.row div {
+	padding:0;
+}
+
+h1 {
+	font-family: 'Abril Fatface', cursive;
+	text-align:center;
+	color:white;
+}
+
+#boop {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.jumbotron {
+/*	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/smiling-bolo.PNG");*/
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/smiling-bolo.PNG");
+	background-position: left;
+	background-repeat: no-repeat;
+	/*padding-top: 30em;*/
+	/*padding-bottom:30em;*/
+	height: calc(85vh - 56px);
+	background-size:cover;
+
+}
+
+.hero-text {
+	/*padding-top:calc(100vh - 750px);*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lead {
+	font-family: 'Abril Fatface', cursive;
+	text-align:center;
+	color:white;
+}
+
+.nav-style {
+	margin: 0 24px;
+}
+
+strong {
+	font-size: 48px;
+}
+
+p {
+	line-height:2;
+}
+
