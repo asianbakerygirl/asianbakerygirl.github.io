@@ -34,7 +34,7 @@ h1 {
 	background-color:white;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: calc(100vh - 96px);
+	height: 100vh;
 	background-size:contain;
 	background-attachment: fixed;
 }
