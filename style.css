@@ -58,7 +58,8 @@ h1 {
   	left: 50%;
   	transform: translate(-50%, -50%);
   	/*border: 0.25em solid rgb(48,48,51);*/
-  	padding: 3em;
+  	padding: 10em 3em;
+  	/*padding-top: 10em;*/
 }
 
 .nav-style {
